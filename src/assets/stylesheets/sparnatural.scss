@@ -322,6 +322,14 @@ body {
 			}
 		}
 	}
+	.childsList {
+		.StartClassGroup {
+			display: none;
+		}
+		.OptionsGroup {
+			margin-left: 0!important;
+		}
+	}
 	.CriteriaGroup {
 		border: 1px solid #ddd;
 		display: flex;
@@ -341,6 +349,7 @@ body {
 		&.onAddOrValue {
 			margin-bottom: $margin-component-onEdit/2;
 		}
+		
 		
 		&>div {
 			
